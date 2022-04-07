@@ -148,3 +148,44 @@ img {
   line-height: 25px;
   color: #333;
 }
+
+/* OUR CREATIONS */
+.creations {
+  margin-bottom: 184px;
+}
+.creations-container {
+}
+.heading-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.creations-heading {
+  margin: 0;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  color: #000;
+}
+.creations-button {
+  padding: 13px 43px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Alata";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 5px;
+  text-decoration: none;
+  color: #000;
+  border: 2px solid #000;
+}
+.creations-wrapper {
+  margin-bottom: 30px;
+}
+.creations-link:not(:last-child) {
+  margin-right: 30px;
+}
+.creations-img {
+}
