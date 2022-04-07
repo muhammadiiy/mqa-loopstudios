@@ -1,4 +1,4 @@
-/* GLOBOL */
+/* GLOBAL */
 html {
   box-sizing: border-box;
   height: 100%;
@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Alata", "Josefin Sans" Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   height: 100%;
@@ -36,9 +36,9 @@ img {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -47,4 +47,102 @@ img {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+}
+
+/* SITE HEADER  */
+.header-hero-wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/driving-car.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 160px;
+}
+.site-header {
+}
+.header-container {
+  display: flex;
+  padding-top: 64px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.site-logo {
+  display: flex;
+  margin-right: 538px;
+}
+.site-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.site-nav-item:not(:last-child) {
+  margin-right: 32px;
+}
+.site-nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Alata";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+.hero-container {
+  padding-bottom: 146px;
+}
+.hero-wrapper {
+  padding: 40px;
+  border: 2px solid #fff;
+  width: 650px;
+}
+.hero-heading {
+  text-transform: uppercase;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 70px;
+  color: #fff;
+}
+
+/* INTERACTIVE  */
+.main-content {
+}
+.cinema {
+  margin-bottom: 184px;
+}
+.cinema-container {
+  width: 1111px;
+  height: 500px;
+  background-image: url(../img/cinema.jpg);
+  background-repeat: no-repeat;
+  background-size: 731px 500px;
+}
+.cinema-content {
+  background-color: #fff;
+  width: 541px;
+  padding-top: 96px;
+  padding-left: 96px;
+  margin-left: auto;
+  margin-top: auto;
+}
+.cinema-heading {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 48px;
+  color: #000;
+  margin-bottom: 25px;
+}
+.cinema-text {
+  font-family: "Alata";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #333;
 }
