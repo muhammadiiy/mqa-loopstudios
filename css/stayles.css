@@ -126,7 +126,7 @@ img {
   padding-top: 96px;
   padding-left: 96px;
   margin-left: auto;
-  margin-top: auto;
+  align-items: center;
 }
 .cinema-heading {
   padding: 0;
@@ -140,6 +140,8 @@ img {
   margin-bottom: 25px;
 }
 .cinema-text {
+  width: 445px;
+  margin: 0;
   font-family: "Alata";
   font-weight: 400;
   font-size: 15px;
